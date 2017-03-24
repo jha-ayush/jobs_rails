@@ -20470,3 +20470,239 @@ Processing by JobsController#new as HTML
 Completed 200 OK in 75ms (Views: 71.8ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for ::1 at 2017-03-23 22:47:57 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.5ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (18.6ms)
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 570ms (Views: 538.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:02 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (7.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 2330ms (Views: 2322.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:14 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.4ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 2182ms (Views: 2177.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:19 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 68ms (Views: 64.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:24 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.1ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 59ms (Views: 55.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:29 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.0ms)
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 104ms (Views: 98.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:34 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (4.2ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 77ms (Views: 73.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:39 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.4ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (4.5ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 104ms (Views: 99.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:44 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (4.2ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 89ms (Views: 84.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:49:49 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 72ms (Views: 69.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:50:11 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.4ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (4.5ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 1993ms (Views: 1988.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:50:47 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.6ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 60ms (Views: 56.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:50:58 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.0ms)
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 2219ms (Views: 2214.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:51:30 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 2048ms (Views: 2044.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:52:26 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.4ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 1987ms (Views: 1984.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:52:38 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.3ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.3ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 68ms (Views: 63.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:52:43 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.7ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 1834ms (Views: 1830.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:52:48 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.6ms)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:52:53 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.7ms)
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 54ms (Views: 50.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:52:58 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.5ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:53:03 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.5ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 51ms (Views: 47.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:53:08 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.9ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 78ms (Views: 74.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:53:13 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.8ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:53:18 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (2.8ms)
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 61ms (Views: 57.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-23 22:53:23 -0700
+Processing by JobsController#index as HTML
+  Rendering jobs/index.html.haml within layouts/application
+  [1m[36mJob Load (0.4ms)[0m  [1m[34mSELECT "jobs".* FROM "jobs" ORDER BY created_at DESC[0m
+  Rendered jobs/index.html.haml within layouts/application (3.2ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 62ms (Views: 58.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/jobs/5" for ::1 at 2017-03-23 22:53:26 -0700
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mJob Load (0.2ms)[0m  [1m[34mSELECT  "jobs".* FROM "jobs" WHERE "jobs"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering jobs/show.html.haml within layouts/application
+  Rendered jobs/show.html.haml within layouts/application (3.0ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Completed 200 OK in 106ms (Views: 93.3ms | ActiveRecord: 0.5ms)
+
+
